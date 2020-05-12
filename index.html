@@ -1,34 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Ping coming soon page</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./src/styles.css" />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <title>Ping coming soon page</title>
 
-  We are launching soon!
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="elem-1-text-and-form">
+        <img src="./images/logo.svg" class="svg-logo" />
 
-  Subscribe and get notified
+        <div class="top-text-1">
+          <span class="top-text-1-left-side">We are launching</span>
+          <span class="top-text-1-right-side">soon!</span>
+        </div>
+        <div class="top-text-2">Subscribe and get notified</div>
+        <div class="email-section">
+          <input type="text" class="email-forum" />
+          <input type="button" value="Notify Me" class="enter-email-button" />
+        </div>
+      </div>
+      <div class="elem-2-image">
+        <img src="./images/illustration-dashboard.png" class="large-image" />
+      </div>
 
-  Notify Me
+      <div class="elem-3-social-media-and-copyright">
+        <div class="social-media-icons">
+          <span>fb icon</span>
+          <span>twitter icon</span>
+          <span>insta icon</span>
+        </div>
 
-  &copy; Copyright Ping. All rights reserved.
+        <div class="copyright-text">
+          &copy; Copyright Ping. All rights reserved.
+        </div>
+      </div>
+    </div>
 
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
-</body>
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Boris Mateev</a>.
+      </p>
+    </footer>
+  </body>
 </html>

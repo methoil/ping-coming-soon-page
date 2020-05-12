@@ -1,0 +1,52 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+}
+
+.elem-1-text-and-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 30vh;
+}
+
+.elem-2-image {
+  /* height: 33vh; */
+}
+
+.elem-3-social-media-and-copyright {
+}
+
+.svg-logo {
+  width: 100px;
+}
+
+.top-text-1 {
+  font-size: 2.5em;
+}
+
+.top-text-1-left-side {
+  color: gray;
+}
+
+.top-text-1-right-side {
+  font-weight: bold;
+}
+
+.top-text-2 {
+  font-size: 1.2em;
+}
+
+.large-image {
+  max-height: 40vh;
+  /* max-width: 100%; */
+}
+
+.copyright-text {
+  font-size: 0.7em;
+  color: gray;
+}
