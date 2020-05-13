@@ -12,6 +12,7 @@
       href="./images/favicon-32x32.png"
     />
     <link rel="stylesheet" href="./src/styles.css" />
+    <script src="./src/script.js"></script>
 
     <title>Ping coming soon page</title>
 
@@ -38,13 +39,15 @@
         </div>
         <div class="top-text-2">Subscribe and get notified</div>
         <div class="email-section">
-          <input type="text" class="email-input email-form" />
+          <input type="text" id="email-form" class="email-input email-form" />
           <input
             type="button"
             value="Notify Me"
             class="email-input email-button"
+            onclick="onEnterEmail()"
           />
         </div>
+        <div id="email-input-feedback"></div>
       </div>
       <div class="elem-2-image">
         <img src="./images/illustration-dashboard.png" class="large-image" />
