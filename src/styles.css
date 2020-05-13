@@ -25,6 +25,42 @@
 .elem-3-social-media-and-copyright {
 }
 
+input.email-input:focus {
+  outline-width: 0;
+}
+
+.email-input {
+  margin: 10px;
+  font-size: 1.25em;
+  border-radius: 20px;
+}
+
+.email-form {
+  height: 2.5vh;
+  width: 325px;
+  padding: 10px;
+}
+
+.email-button {
+  height: 5vh;
+  width: 175px;
+
+  background-color: blue;
+  color: white;
+
+  transition: all 0.2s;
+}
+
+.email-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.email-button:active {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
 .svg-logo-container {
   flex-basis: 25%;
 }
