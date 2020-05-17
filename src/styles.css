@@ -41,10 +41,19 @@ input.email-input:focus {
   padding: 10px;
 }
 
+@media screen and (min-width: 601px) {
+  .email-button-width {
+    width: 175px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .email-button-width {
+    width: 350px;
+  }
+}
+
 .email-button {
   height: 5vh;
-  width: 175px;
-
   background-color: blue;
   color: white;
 
@@ -85,14 +94,31 @@ input.email-input:focus {
   font-size: 1.2em;
 }
 
-.email-section {
-  display: flex;
-  align-items: center;
-  flex-basis: 30%;
+@media screen and (min-width: 601px) {
+  .email-section {
+    display: flex;
+    align-items: center;
+    flex-basis: 30%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .email-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 30%;
+  }
 }
 
-.large-image {
-  max-height: 40vh;
+@media screen and (min-width: 601px) {
+  .large-image {
+    max-height: 40vh;
+  }
+}
+@media screen and (max-width: 600px) {
+  .large-image {
+    max-width: 90%;
+  }
 }
 
 .social-media-icons-container {
